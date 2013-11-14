@@ -1,0 +1,101 @@
+
+.time {
+  position:relative;
+  margin-right:20px;
+}
+
+.result {
+  text-shadow: 0 2px 2px black;
+  
+}
+
+.secondary {
+  margin-bottom:5px;
+  font-size:100%;
+}
+
+.marker {
+  width:170px;
+  height:60px;
+  /*background-color:gray;*/
+}
+
+a {
+  text-color:purple;
+  text-decoration:underline;
+   
+}
+
+a:hover {
+  cursor:pointer;  
+}
+
+hr {
+  margin-top:0px;
+  margin-bottom:0px;
+  color:gray;
+}
+
+h2 {
+  margin-top:5px;
+  padding-top:0px;
+  margin-bottom:5px;
+  padding-bottom:0px;
+  font-family:sans-serif;
+  font-size:140%;
+}
+h3 {
+  font-family:'Trebuchet MS', Helectiva, sans-serif;
+  font-size:100%;
+  margin-top:5px;
+  padding-top:0px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+#progressBarDown {
+    width: 400px;
+    height: 22px;
+    border: 1px solid #111;
+    background-color: #292929;
+    border-radius:8px;
+    margin-top:4px;
+}
+
+#progressBarDown div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    border-radius:8px;
+    /*background-color: #0099ff;*/
+    background: #0060fc; /* Old browsers */
+    background: -moz-linear-gradient(top, #0060fc 0%, #0099ff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0060fc), color-stop(100%,#0099ff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0060fc 0%,#0099ff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0060fc 0%,#0099ff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0060fc 0%,#0099ff 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #0060fc 0%,#0099ff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0060fc', endColorstr='#0099ff',GradientType=0 ); /* IE6-9 */
+}
+
+#key {
+  position:fixed;
+  top:100%;
+  left:50%;
+  margin-left:-200px;
+  margin-top:-80px;
+
+}
+#help {
+  position:fixed;
+  top:100%;
+  left:100%;
+  margin-left:-90px;
+  margin-top:-111px;
+}
+
+#help:hover{
+  cursor:pointer;
+}
