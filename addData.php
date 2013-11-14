@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  $db = mysql_connect("localhost","root", "6PJ3k3gr!");
+  $db = mysql_connect("localhost",DB_USERNAME, DB_PASSWOR);
 
   if (!$db){
     echo "Could not connect to database" . mysql_error();
